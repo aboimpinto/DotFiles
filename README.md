@@ -5,5 +5,5 @@ On Ubuntu 20.10, follow the steps described in the post
 
 To be able to connect the monitors though this docking station it's necessary to install the DisplayLink USB Graphics Software for Ubuntu.
 
-02.JUN.2020
+**02.JUN.2020**
 This driver works and the image is showend in the monitors but the quality is bad. Near the mouse cursor we can see a square that should represent the cursor. Need to report this issue somewhere.
