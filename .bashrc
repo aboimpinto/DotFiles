@@ -124,16 +124,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-function _update_ps1() {
-    PS1=$(powerline-shell $?)
-}
 
-if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-
-fi
-
-export DOTNET_ROOT=$HOME/dotnetcore/3.1.300
-export PATH=$PATH:$HOME/dotnetcore/3.1.300
+source /usr/share/powerline/bindings/bash/powerline.sh 
 
 neofetch

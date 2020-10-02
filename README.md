@@ -1,3 +1,13 @@
+# When configure a new station: 
+	* Install neofetch
+	* Install powerline
+	* Install lsd
+	* Download the font 'Hack Nerd Font' from: https://www.nerdfonts.com/
+	* Unzip the Hack.zip file to ~/.fonts
+	* Run the command 'fc-cache -fv' to manually rebuild the font cache
+	* Replace the .bashrc file 
+
+
 # Install I-TEC USB-A 3.0 / USB-C DUAL DISPLAY DOCKING STATION
 
 On Ubuntu 20.10, follow the steps described in the post 
