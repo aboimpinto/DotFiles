@@ -1,7 +1,8 @@
 # When configure a new station: 
 	* Install neofetch
-	* Install powerline
-	* Install lsd
+	* Install powerline with command 'pip install powerline-shell'
+		* To install pip, follow the guide for Ubuntu 20.04: https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
+	* Install lsd. Do not install via snap but get the last version from gitHub page: https://github.com/Peltoche/lsd/releases
 	* Download the font 'Hack Nerd Font' from: https://www.nerdfonts.com/
 	* Unzip the Hack.zip file to ~/.fonts
 	* Run the command 'fc-cache -fv' to manually rebuild the font cache
