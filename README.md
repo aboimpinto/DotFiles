@@ -1,4 +1,4 @@
-# When configure a new station: 
+# When configure a new computer: 
 	* Install neofetch
 	* Install powerline with command 'pip install powerline-shell'
 		* To install pip, follow the guide for Ubuntu 20.04: https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
