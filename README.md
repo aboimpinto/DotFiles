@@ -8,6 +8,7 @@
 * Run the command 'fc-cache -fv' to manually rebuild the font cache
 * Replace the .bashrc file 
 
+![my shell looks like this](screenshots/UbuntuShell.png)
 
 # Useful commands
 ## Run redis instance with modules
