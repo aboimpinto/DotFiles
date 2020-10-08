@@ -14,7 +14,15 @@
 * This command load the reJSON module but other can be loaded (see: https://hub.docker.com/r/redislabs/redismod)
 * Uses persistent data
 
-	sudo docker run --detach   -p 6379:6379   -v /home/user/data:/data   redislabs/redismod   --loadmodule /usr/lib/redis/modules/rejson.so --dir /data
+```
+	sudo docker run 
+		--detach \ 
+		-p 6379:6379 \
+		-v /home/user/data:/data \
+		redislabs/redismod \
+		--loadmodule /usr/lib/redis/modules/rejson.so \
+		--dir /data
+```
 
 
 # Install I-TEC USB-A 3.0 / USB-C DUAL DISPLAY DOCKING STATION
