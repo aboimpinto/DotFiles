@@ -26,6 +26,8 @@
 ```
 
 
-# Install Third Party Codecs 
--> Ubuntu: sudo apt install ubuntu-restricted-extras
--> Manjaro: sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore
+# Install Third Party Codecs   
+-> Ubuntu:   
+```sudo apt install ubuntu-restricted-extras```   
+-> Manjaro:    
+```sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore```   
