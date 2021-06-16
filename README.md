@@ -31,3 +31,9 @@
 ```sudo apt install ubuntu-restricted-extras```   
 -> Manjaro:    
 ```sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore```   
+
+# Install 32-Bit NVIDIA driver
+-> Ubuntu:   
+``` sudo apt-get install libnvidia-gl-390:i386 ```   
+Instead of 390, put your driver version. 
+Use the command ```nvidia-smi``` to reveal NVIDIA driver version
