@@ -39,8 +39,8 @@ Instead of 390, put your driver version.
 Use the command ```nvidia-smi``` to reveal NVIDIA driver version
 
 # Start and Stop GoPRO WebCam service
--> sudo systemctl start gopro_webcam.service   
--> sudo systemctl stop gopro_webcam.service
+```> sudo systemctl start gopro_webcam.service ```   
+```> sudo systemctl stop gopro_webcam.service ```   
 
 ## Read the log of the service
-sudo journalctl -u gopro_webcam -f
+```> sudo journalctl -u gopro_webcam -f ```
