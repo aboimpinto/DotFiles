@@ -10,6 +10,8 @@
 
 ![my shell looks like this](screenshots/UbuntuShell.png)
 
+=> use this guide: https://medium.com/earlybyte/powerline-for-bash-6d3dd004f6fc
+
 # Useful commands
 ## Run redis instance with modules
 * This command load the reJSON module but other can be loaded (see: https://hub.docker.com/r/redislabs/redismod)
