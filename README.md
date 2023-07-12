@@ -1,12 +1,7 @@
 # When configure a new computer: 
 * Install neofetch
-* Install powerline with command 'pip install powerline-shell'
-	* To install pip, follow the guide for Ubuntu 20.04: https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
-* Install lsd. Do not install via snap but get the last version from gitHub page: https://github.com/Peltoche/lsd/releases
-* Download the font 'Hack Nerd Font' from: https://www.nerdfonts.com/
-* Unzip the Hack.zip file to ~/.fonts
-* Run the command 'fc-cache -fv' to manually rebuild the font cache
-* Replace the .bashrc file 
+
+* To install PowerLine, follow the guide: https://www.ricalo.com/blog/install-powerline-ubuntu/ 
 
 ![my shell looks like this](screenshots/UbuntuShell.png)
 
