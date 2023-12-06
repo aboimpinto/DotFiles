@@ -1,3 +1,10 @@
+# ADB Commands
+
+## Mirror the phone
+```
+> adb shell screenrecord --output-format=h264 - | mplayer -framedrop -fps 6000 -cache 512 -demuxer h264es -
+```
+
 # MongoDb tutorial
 
 ## Docker image
