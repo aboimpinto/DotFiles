@@ -11,16 +11,16 @@
 
 Suggested Solution:
 
-lutris-GE-Proton7-19 / Proton 6.3-8 / Proton GE 7-27
-dxvk-2.1
-vkd3d-proton-2.8
+* lutris-GE-Proton7-19 / Proton 6.3-8 / Proton GE 7-27
+* dxvk-2.1
+* vkd3d-proton-2.8
 +
-Enable D3D Extras = true
-Esync = true
-Fsync = true
+* Enable D3D Extras = true
+* Esync = true
+* Fsync = true
 +
-Environment Variables:
-VKD3D_FEATURE_LEVEL=12_1
+* Environment Variables:
+	VKD3D_FEATURE_LEVEL=12_1
 
 Source:
 https://forum.manjaro.org/t/help-changing-lutris-dxvk-and-d3dvk-diablo-iv-error-no-gpus-found/136449
