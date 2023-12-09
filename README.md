@@ -5,6 +5,13 @@
 > adb shell screenrecord --output-format=h264 - | mplayer -framedrop -fps 6000 -cache 512 -demuxer h264es -
 ```
 
+# FFMPEG Converters commands
+
+## Lower the resolution / size of a video
+```
+> ffmpeg -i in.avi -fs 100M out.avi
+```
+
 # Blizzard games issues
 
 ## Cannot find the graphics card
