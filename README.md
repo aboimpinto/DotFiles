@@ -14,6 +14,18 @@
 
 # Blizzard games issues
 
+## Uninstall NVIDIA drivers
+
+```
+> sudo apt-get remove --purge '^nvidia-.*'
+```
+
+## Install NVIDIA drivers
+
+```
+> sudo ubuntu-drivers install
+```
+
 ## Cannot find the graphics card
 
 Suggested Solution:
