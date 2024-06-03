@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: HushNetworkDb # Default database name
+      POSTGRES_USER: aboimpinto
+      POSTGRES_PASSWORD: paulo97
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Data persistence
+    networks:
+      - mynetwork # Custom network
+
+networks:
+  mynetwork:
+
+volumes:
+  postgres_data:
