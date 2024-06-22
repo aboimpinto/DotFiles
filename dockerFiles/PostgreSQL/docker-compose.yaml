@@ -15,6 +15,7 @@ services:
 
 networks:
   myDatabaseNetwork:
+    name: myDatabaseNetwork
 
 volumes:
   postgres_data:
